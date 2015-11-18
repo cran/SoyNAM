@@ -11,8 +11,8 @@ Genomic and multi-environmental soybean data. Soybean Nested Association Mapping
 \tabular{ll}{
 Package: \tab NAM\cr
 Type: \tab Package\cr
-Version: \tab 1.1 \cr
-Date: \tab 2015-10-15\cr
+Version: \tab 1.2 \cr
+Date: \tab 2015-11-16\cr
 License: \tab GPL-3 \cr
 }
 }
@@ -22,5 +22,5 @@ Alencar Xavier, William Beavis, James Specht, Brian Diers, William Muir, Katy Ra
 Maintainer: Alencar Xavier <xaviera@purdue.edu>
 }
 \seealso{
-Functions: BLUP1, BLUP2, data(soybase) and data(soynam)
+Functions: BLUP, data(soybase) and data(soynam).
 }

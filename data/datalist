@@ -1,2 +1,2 @@
-soybase: data.check.qa data.line.qa gen.check.qa gen.line.qa
-soynam: .Random.seed data.check data.line gen.IA3023 gen.check gen.line
+soybase: data.check.qa data.line.qa gen.qa
+soynam: .Random.seed data.check data.line gen.raw
