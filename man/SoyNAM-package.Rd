@@ -11,8 +11,8 @@ Genomic and multi-environmental soybean data. Soybean Nested Association Mapping
 \tabular{ll}{
 Package: \tab NAM\cr
 Type: \tab Package\cr
-Version: \tab 1.2 \cr
-Date: \tab 2015-11-16\cr
+Version: \tab 1.3 \cr
+Date: \tab 2015-12-12\cr
 License: \tab GPL-3 \cr
 }
 }

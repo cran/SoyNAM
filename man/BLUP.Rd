@@ -1,5 +1,6 @@
 \name{BLUP}
 \alias{BLUP}
+\alias{ENV}
 \title{
 Best Linear Unbias Predictor
 }

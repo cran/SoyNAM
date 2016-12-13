@@ -115,3 +115,25 @@ BLUP=function(trait="yield",family="all",env="all",
     return(LIST)
   }
 
+ENV=function(trait="yield"){
+  data.line.qa = 0
+  gen.qa=0
+  data(soynam,envir=environment(),package="SoyNAM")
+  data(soybase,envir=environment(),package="SoyNAM")
+  test=dcast(data.line.qa,strain~environ,value.var=trait,mean)
+  Strain=as.character(test[,1])
+  test=test[,-1]
+  test=data.matrix(test)
+  rownames(test)=Strain
+  test=test[intersect(rownames(gen.qa),rownames(test)),]
+  test[is.nan(test)]=NA
+  test = test[,-which(apply(test,2,function(x)mean(is.na(x)))==1)]
+  gen = gen.qa[rownames(test),]
+  fam=as.numeric(substr(rownames(gen),6,7))
+  chr=rep(NA,20)
+  for(i in 1:20) chr[i]=length(grep(
+    paste("Gm",sprintf("%02d",i),sep=''),
+    colnames(gen)));rm(i)
+  gen = markov(gen,chr)
+  h = list(Y=test,gen=gen,fam=fam,chr=chr)
+  return(h)}
