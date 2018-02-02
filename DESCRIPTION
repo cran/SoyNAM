@@ -1,8 +1,8 @@
 Package: SoyNAM
 Type: Package
 Title: Soybean Nested Association Mapping Dataset
-Version: 1.3
-Date: 2016-12-12
+Version: 1.4
+Date: 2018-2-2
 Author: Alencar Xavier, William Beavis, James Specht, Brian Diers, Reka Howard,
     William Muir, Katy Rainey.
 Maintainer: Alencar Xavier <alenxav@gmail.com>
@@ -13,7 +13,7 @@ Description: Genomic and multi-environmental soybean data. Soybean Nested
 License: GPL-3
 Imports: NAM, lme4, reshape2
 Depends: R (>= 3.0.2)
-Packaged: 2016-12-12 19:58:37 UTC; u787935
+Packaged: 2018-02-02 21:37:04 UTC; u787935
 NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2016-12-13 14:23:06
+Date/Publication: 2018-02-02 22:12:02 UTC

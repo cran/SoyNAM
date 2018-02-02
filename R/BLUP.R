@@ -7,7 +7,7 @@ BLUP=function(trait="yield",family="all",env="all",
     # Load data
     data(soynam,envir=environment(),package="SoyNAM")
         
-    # Genotypic matrix of lines 
+    # Genotypic matrix of lines
     geno = gen.raw[grep('DS1',rownames(gen.raw)),]
         
     # FAM
@@ -67,9 +67,9 @@ BLUP=function(trait="yield",family="all",env="all",
     
     geno = snpQC(geno,MAF=MAF)
     
-    cat('Removing markers with more than 80% missing values\n')
+    cat('Removing markers with more than 50% missing values\n')
     mi=apply(geno,2,function(q)mean(is.na(q)))
-    geno = geno[,mi<.8]
+    geno = geno[,mi<.5]
     
     for(i in 1:20) chr[i]=length(grep(
       paste("Gm",sprintf("%02d",i),sep=''),
