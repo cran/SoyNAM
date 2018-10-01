@@ -5,14 +5,17 @@
 Soybean Nested Association Mapping Dataset
 }
 \description{
-Genomic and multi-environmental soybean data. Soybean Nested Association Mapping (SoyNAM) project dataset funded by the United Soybean Board (USB), pre-formatted for general analysis and genome-wide association analysis using the NAM package.
+    Genomic and multi-environmental soybean data. Soybean Nested
+    Association Mapping (SoyNAM) project dataset funded by the United Soybean Board
+    (USB). See <doi.org/10.1534/g3.118.200332> and <doi.org/10.1534/g3.117.300300>. 
+    BLUP function formats data for genome-wide prediction and association analysis.
 }
 \details{
 \tabular{ll}{
 Package: \tab NAM\cr
 Type: \tab Package\cr
-Version: \tab 1.4 \cr
-Date: \tab 2018-2-2\cr
+Version: \tab 1.5 \cr
+Date: \tab 2018-10-01\cr
 License: \tab GPL-3 \cr
 }
 }

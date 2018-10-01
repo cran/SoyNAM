@@ -27,7 +27,7 @@ data(soybase)
 data(soynam)
 }
 \details{
-Datasets of the SoyNAM project, original and quality assured (QA) versions. Data was downloaded on November 16th 2015 from \url{soynam.org}. The data collected in Indiana was collected in 2013-2014 and made available on January 2018.
+Datasets of the SoyNAM project, original and quality assured (QA) versions. Data was downloaded on November 16th 2015 from \url{soynam.org}. The data collected in Indiana was collected in 2013-2014 and made available on January 2018. Studies performed on the entire dataset with additional detail about the experimental settings include Diers et al. (2018) and Xavier et al. (2018).
 
 Genotypic matrices are named "gen.raw" and "gen.qa" for the raw and QA versions, respectively. In each dataset, phenotypes are allocated into two objects, one with the lines ("data.line") and one with checks and parents ("data.checks"). Information on data objects include year, location, environment (combination of year and location), strain, family, set (set in each environment), spot (combination of set and environment), height (in centimeters), R8 (number of days to maturity), planting date (501 represents may 1), flowering (701 represents july 1), maturity (901 represents september 1), lodging (score from 1 to 5), yield (in Kg/ha), moisture, protein (percentage in the seed), oil (percentage in the seed), fiber (percentage in the seed), seed size (in grams of 100 seeds).
 
@@ -39,6 +39,8 @@ Alencar Xavier
 }
 \references{
 
+Diers, B. W., Specht, J., Rainey, K. M., Cregan, P., Song, Q., Ramasubramanian, V., ... & Shannon, G. (2018). Genetic Architecture of Soybean Yield and Agronomic Traits. G3: Genes, Genomes, Genetics, g3-200332.
+
 Li, Y., Willer, C. J., Ding, J., Scheet, P., & Abecasis, G. R. (2010). MaCH: using sequence and genotype data to estimate haplotypes and unobserved genotypes. Genetic epidemiology, 34(8), 816-834.
 
 Song, Q., Yan, L., Quigley, C., Jordan, B.D., Fickus, E., Schroeder, S., Song, B., An, Y. Q. C., Hyten, D., Nelson, R., Rainey, K. M., Beavis, W. D., Specht, J. E., Diers, B. W., Cregan, P. (2017). Development and Genetic Characterization of the Soybean Nested Association Mapping (NAM) Population. Plant Genome. 10(2):1-14.
@@ -46,6 +48,9 @@ Song, Q., Yan, L., Quigley, C., Jordan, B.D., Fickus, E., Schroeder, S., Song, B
 Xavier, A., Muir, W. M., & Rainey, K. M. (2016). Assessing predictive properties of genome-wide selection in soybeans. G3: Genes, Genomes, Genetics, 6(8), 2611-2616.
 
 Xavier, A., Hall, B., Casteel, S., Muir, W., & Rainey, K. M. (2017). Using unsupervised learning techniques to assess interactions among complex traits in soybeans. Euphytica, 213(8), 200.
+
+Xavier, A., Jarquin, D., Howard, R., Ramasubramanian, V., Specht, J. E., Graef, G. L., ... & Nelson, R. (2017). Genome-Wide analysis of grain yield stability and environmental interactions in a multiparental soybean population. G3: Genes, Genomes, Genetics, g3-300300.
+
 }
 \examples{
 data(soynam)

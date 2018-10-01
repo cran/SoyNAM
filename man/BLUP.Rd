@@ -19,7 +19,7 @@ Character. Trait of interest. The options are: "yield" (grain yield in Kg/ha), "
 Numberic vector or "all". Which SoyNAM families to use.
 }
   \item{env}{
-Numberic vector or "all". Which environments to use. The environments are coded as follows: 1 (IA_2012), 2 (IA_2013), 3 (IL_2011), 4 (IL_2012), 5 (IL_2013), 6 (IN_2012), 7(IN_2013), 8 (KS_2012), 9 (KS_2013), 10 (MI_2012), 11 (MO_2012), 12 (MO_2013), 13 (NE_2011), 14 (NE_2012), 15 (OHmc_2012), 16 (OHmc_2013), 17 (OHmi_2012) and 18 (OHmi_2013).
+Numberic vector or "all". Which environments to use. The environments are coded as follows: 1 (IA_2012), 2 (IA_2013), 3 (IL_2011), 4 (IL_2012), 5 (IL_2013), 6 (IN_2012), 7 (IN_2013), 8 (KS_2012), 9 (KS_2013), 10 (MI_2012), 11 (MO_2012), 12 (MO_2013), 13 (NE_2011), 14 (NE_2012), 15 (OHmc_2012), 16 (OHmc_2013), 17 (OHmi_2012) and 18 (OHmi_2013).
 }
   \item{MAF}{
 Numeric. Minor allele frequency threshold for the markers.
@@ -59,5 +59,5 @@ Xavier, A., Xu, S., Muir, W. M., & Rainey, K. M. (2015). NAM: association studie
 Alencar Xavier
 }
 \examples{
-Test=BLUP(trait="yield",family=2:5,env=2:7)
+Test=BLUP(trait="yield",family=2:3,env=1:2)
 }

@@ -1,10 +1,10 @@
-18227fec8db8db7e7702dbef3d5b63fc *DESCRIPTION
+952c7de03c4192f07272e029ac404f90 *DESCRIPTION
 221257bdfb8046ce702c56a445285640 *NAMESPACE
 e01d9f8b7de9f0bf049e6f6dad6aa65a *R/BLUP.R
 ac309104d6843d59e3dd185d03ba87e1 *data/datalist
 179c3fd19d2aeeae9a9bce8c510414e9 *data/soybase.RData
-e7d8839df900266f4152cbf087e89b28 *data/soyin.RData
+bfbdd99e6220e5be080d83de9d68b491 *data/soyin.RData
 91ef8d176f86f0bea2d3ff6c07071787 *data/soynam.RData
-440dd3f357353ec0109bcbe4b0aab446 *man/BLUP.Rd
-75f423f6d616a26ec4ba8212c6dc974d *man/SoyNAM-package.Rd
-853fe9ecb9d1f0659b0d53ebc394894e *man/soynam.Rd
+4beee3029ca084deee6a7b7925aba352 *man/BLUP.Rd
+0f7b9c28ffc617974efeb86098e74d9a *man/SoyNAM-package.Rd
+afe2d7e4e4670730fb25f8ec5ce8c510 *man/soynam.Rd
