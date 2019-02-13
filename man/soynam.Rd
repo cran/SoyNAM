@@ -10,7 +10,6 @@
 \alias{data.check.in}
 \alias{data.line.in}
 \alias{gen.in}
-\alias{.Random.seed}
 \title{
 Datasets
 }
